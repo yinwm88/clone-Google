@@ -1,0 +1,213 @@
+body{
+    margin: 0 auto;
+    padding:0;
+
+    opacity:90%;
+}
+/*****************************************************************************/
+    /**NAVEGACION*/
+header{
+    width: 100%;
+    height: 150%;
+}
+
+header nav{
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width:contain;
+    height:contain;
+    display: flex;
+    list-style: none;
+    font-size:25px;
+    color: cadetblue;
+    margin-right: 25px;
+    justify-content: center;    
+    align-items: center;
+
+}
+
+/**a de Ancla por que nos lleva a algun lado(link)*/
+a{
+    text-decoration: none;
+}
+
+/**Anclas dentro de la lista*/
+nav .nav-right-section a{
+    margin-right: 10px;
+    color:black;
+}
+
+nav .nav-right-section .texto{
+    margin-right: 25px;
+    color: chartreuse;
+}
+
+
+nav .nav-right-section .menu{
+    background-image:url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 30px;
+    height:30px;
+    margin-left: 15px;
+    background-size: cover;
+}
+
+
+nav .nav-right-section .profile{
+    border-style:hidden;
+    border-radius: 100%;
+    margin-left:30px;
+    width: 50px;
+    height:50px;
+}
+/*************************************/
+
+/*************************************/
+/**MAIN*/
+main{
+    margin-top:90px;
+    /**Centrar elmentos*/
+    text-align: center;
+}
+
+main .main-logo{
+    width:contain;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+main .main-logo img{
+   width: 400px;
+   height: 130px;
+}
+
+main .main-input {
+    width:270px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+main .main-input-container{
+    justify-content: center;
+    background-color: rgb(32, 33, 32);    
+    display: flex;
+    align-items: center;
+    width: 850px;
+    height: 55px;
+    border-radius: 80px;
+    border: 3px solid black;
+    margin-left: -290px;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 2px 3px;
+}
+
+main .main-input .search-icon{
+    background-image: url("https://seekicon.com/free-icon-download/search_20.svg");
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    margin-right:25px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+
+main .main-input .micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+main .main-input .cam-icon{
+    background-image: url("https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+main .main-input input{
+    font-size: 25px;
+    color:rgb(246, 207, 50);
+    border: none;
+    outline: none;
+    width: 650px;
+    background-color: transparent;
+}
+
+main .main-buttons{
+    width: 600px;
+    height: 55px;
+    margin:0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;  
+}
+
+main .main-buttons button{
+    border: 1px solid black;
+    color:palegreen;
+    background-color:rgb(6, 6, 6);
+    font-size:25px;
+    width:fit-content;
+    border-radius: 15px;
+    margin-top:5px;
+    height: 55px;
+    padding: 0 15px;
+    margin-inline: 8px;
+}
+
+main .main-buttons button:hover{
+box-shadow: 0 1px 1px white;
+/**cambia color del borde al hacer hover*/
+border: 1px solid black;
+/**cambia color letras al hacer hover*/
+color:rgb(38, 31, 243);
+}
+/****FOOTER***********************************/
+footer{
+    background-color:rgb(47, 46, 46);
+    width: 100%;
+    margin-top:400px;
+    height: 85px;
+    position: absolute;
+    font-size: 20px;
+    border-top: 1px solid black;
+    /**contenido footer divido en dos columnas*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left:3px;
+}
+
+footer .footer-left{
+    justify-self:left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    color:rgb(250, 253, 248);
+    margin:10px;
+}
+
+
