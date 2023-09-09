@@ -8,4 +8,4 @@
  Cloning Google interface using HTML and CSS.
 
 
- <h10><b> Held at TecnolochicasPro bootcamp.</b></h10>
+ <h10><b> Done at TecnolochicasPro bootcamp.</b></h10>
